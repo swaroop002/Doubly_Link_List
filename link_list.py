@@ -87,7 +87,7 @@ class LL:
             print(self.tail.data)
 l1=LL()
 print('Enter option tht you want to perform') 
-op=int(input('1:Insert At End \n2 : Insert At Beginning \n3 : Insert After\n4 : Remove Name from End\n5 : Remove Name from Beginning\n6 : Search For Name\n7 : Display List\n')) 
+op=int(input('1 : Insert At End \n2 : Insert At Beginning \n3 : Insert After\n4 : Remove Name from End\n5 : Remove Name from Beginning\n6 : Search For Name\n7 : Display List\n')) 
 while(op<=8):
     if(op==1):
         data=(input('Enter name to add : ')) 
@@ -110,6 +110,6 @@ while(op<=8):
         l1.display()
     else: 
         print("Invalid option.")
-    op=int(input('1:Insert At End \n2 : Insert At Beginning \n3 : Insert After\n4 : Remove Name from End\n5 : Remove Name from Beginning\n6 : Search For Name\n7 : Display List\n'))  
+    op=int(input('1 : Insert At End \n2 : Insert At Beginning \n3 : Insert After\n4 : Remove Name from End\n5 : Remove Name from Beginning\n6 : Search For Name\n7 : Display List\n'))  
 print("Enter option that you want to perform") 
-op=int(input('1:Insert At End \n2 : Insert At Beginning \n3 : Insert After\n4 : Remove Name from End\n5 : Remove Name from Beginning\n6 : Search For Name\n7 : Display List\n')) 
+op=int(input('1 : Insert At End \n2 : Insert At Beginning \n3 : Insert After\n4 : Remove Name from End\n5 : Remove Name from Beginning\n6 : Search For Name\n7 : Display List\n')) 
